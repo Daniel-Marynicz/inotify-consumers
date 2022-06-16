@@ -1,6 +1,8 @@
 name: Docker Build Images
 
 on:
+  release:
+    types: [published]
   workflow_dispatch:
   push:
     branches:
